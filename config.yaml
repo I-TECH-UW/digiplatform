@@ -1,10 +1,10 @@
-projectName: platform
-image: jembi/platform:latest
+projectName: digiplatform
+image: itechuw/digiplatform:latest
 logPath: /tmp/logs
 
 packages:
   - interoperability-layer-openhim
-  - reverse-proxy-nginx
-  - fhir-datastore-hapi-fhir
-  - monitoring
+  #- reverse-proxy-nginx
+  #- fhir-datastore-hapi-fhir
+  
  
